@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memoir</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="icon" type="image.png" href="/assets/images/favicon.png">
+    <script src="/assets/js/script.js" defer></script>
+    <script src="/assets/js/loadComponents.js" defer></script>
+    <script src="/assets/js/search.js" defer></script>
+    <script src="/assets/js/auth.js" defer></script>
+    <script src="/assets/js/protect.js" defer></script>
+
+
+
+</head>
+<body>
+  <!-- Header will be dynamically inserted here -->
+  <header>
+    <h1>Memoir</h1>
+    <div class="search-container">
+        <input type="text" placeholder="Search..." class="search-input">
+        <button type="submit" class="search-button">🔍</button>
+        </button>
+      </div>
+    <nav>
+        <a href="/index.html">Home</a>
+        <a href="/pages/profile.html">profile</a>
+        <a href="/pages/profile.html"><button id="logout-button">Logout</button></a>
+
+    </nav>
+</header>
+
+  
+         <!-- Blog Main Content -->
+  <main class="blog-content" >
+    <section class="blog-posts" id="memories-section">
+      <h1>Latest Memories</h1>
+
+    </section>
+
+
+
+     <!-- Add Blog Section -->
+  <section class="add-blog">
+    <h1>Add a New Memory</h1>
+    <form action="#" method="POST" id="memory-form">
+      <div class="form-group">
+        <label for="blog-title">Memory Title:</label>
+        <input type="text" id="blog-title" placeholder="Enter blog title" required>
+      </div>
+      <div class="form-group">
+        <label for="blog-content">Memory Content:</label>
+        <textarea id="blog-content" placeholder="Write your Memory here..." required></textarea>
+      </div>
+
+      <div class="form-group">
+        <label for="blog-image">Upload Image:</label>
+        <input type="file" id="blog-image" accept="image/*">
+      </div>
+      <button type="submit" class="submit-btn">Publish Memory</button>
+    </form>
+  </section>
+
+  <div class="pagination">
+    <button id="prev-btn" onclick="prevPage()">Previous</button>
+    <p>Page <span id="current-page-display"></span> of <span id="total-pages-display"></span></p>
+
+    <button id="next-btn" onclick="nextPage()">Next</button>
+
+  </div>
+  <!-- Footer will be dynamically inserted here -->
+  
+  <script src="/assets/js/app.js"></script>
+</body>
+</html>
+
+
+

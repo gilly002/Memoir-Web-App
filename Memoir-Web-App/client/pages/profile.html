@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page</title>
+    <link rel="icon" type="image.png" href="/assets/images/favicon.png">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <script src="/assets/js/script.js" defer></script>
+    <script src="/assets/js/profile.js" defer></script>
+    <script src="/assets/js/protect.js" defer></script>
+    <script src="/assets/js/auth.js" defer></script>
+
+
+</head>
+<body>
+    <!-- Header will be dynamically inserted here -->
+    <div id="header">
+        <header>
+            <h1>Memoir</h1>
+        
+            <nav>
+                <a href="/index.html">Home</a>
+                <a href="/pages/posts.html">Memories</a>
+                <a href=""><button id="logout-button">Logout</button></a>
+
+                
+            </nav>
+        </header>
+    </div>
+    
+    <div class="profile-container">
+        <!-- Profile content will be dynamically generated here -->
+
+    </div>
+
+      <!-- Footer will be dynamically inserted here -->
+  <div id="footer"></div>
+  <!-- <script src="/assets/js/loadComponents.js"></script> -->
+  <script src="https://cdn.jsdelivr.net/npm/jwt-decode/build/jwt-decode.min.js"></script>
+</body>
+</html>

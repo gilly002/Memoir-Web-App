@@ -1,0 +1,133 @@
+/* Reset some basic styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+  }
+  
+  header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 1em 0;
+    z-index: 1000;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+  }
+  
+  nav h1 {
+    font-size: 1.8em;
+    color: #fff;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  .hero {
+    height: 100vh;
+    background-image: url('/assets/images/memory image 3.webp'); /* Replace with the actual image */
+    background-size: 500px;
+    background-position: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .hero-content {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 2em;
+    border-radius: 10px;
+  }
+  
+  .hero-content h2 {
+    font-size: 3em;
+    margin-bottom: 0.5em;
+  }
+  
+  .hero-content p {
+    font-size: 1.5em;
+    margin-bottom: 1em;
+  }
+  
+  button {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 0.75em 1.5em;
+    font-size: 1.1em;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #218838;
+  }
+  
+  .about-section {
+    background-image: url(/client/assets/images/memory\ image\ 3.webp);
+    background-size: 500px;
+    padding: 3em;
+    text-align: center;
+    color:#000;
+  }
+  
+  .about-section h2 {
+    font-size: 2.5em;
+    margin-bottom: 1em;
+  }
+  
+  .about-section p {
+    font-size: 1.2em;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .div-footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1.5em 0;
+    margin-top: 2em;
+  }
+
+  footer {
+    background-color: #080707;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+footer p {
+    margin: 0;
+}
+  
